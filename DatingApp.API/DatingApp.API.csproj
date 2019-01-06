@@ -13,5 +13,11 @@
     <PackageReference Include="System.Data.SQLite" Version="1.0.109.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update=".xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
 
 </Project>
